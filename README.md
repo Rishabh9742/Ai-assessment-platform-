@@ -79,4 +79,9 @@ On the seed dataset, the AI scorer reliably separates submission quality tiers (
 - Role-based authentication for students vs instructors instead of a sidebar toggle.
 
 ## 12. Team Member Names
-_(Add your team member names here before submission)_
+Roll No. Name
+430 Hargundeep Singh
+388 Rishabh Rai
+391 Abhimanyu Thakur
+385 Rishabraj Singh Shekhawat
+385 Utkarsh Kumar Chaturvedi
