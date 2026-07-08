@@ -80,8 +80,9 @@ On the seed dataset, the AI scorer reliably separates submission quality tiers (
 
 ## 12. Team Member Names
 Roll No. Name
-430 Hargundeep Singh
-388 Rishabh Rai
-391 Abhimanyu Thakur
-385 Rishabraj Singh Shekhawat
-385 Utkarsh Kumar Chaturvedi
+- 388 Rishabh Rai
+- 430 Hargundeep Singh
+- 385 Rishabraj Singh Shekhawat
+- 385 Utkarsh Kumar Chaturvedi
+- 391 Abhimanyu Thakur
+
