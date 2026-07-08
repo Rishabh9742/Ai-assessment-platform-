@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+feedback_platform.db
+.streamlit/
+.env
+.ipynb_checkpoints/
+*.DS_Store

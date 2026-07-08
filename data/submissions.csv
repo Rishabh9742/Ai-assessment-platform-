@@ -1,0 +1,160 @@
+submission_id,assignment_id,student_id,student_name,submission_text,submitted_at
+S0001,A1,student04,Student_04,"def process_numbers(nums):
+    # handle empty list edge case
+    if not nums:
+        return []
+    result = []
+    for n in nums:
+        if n < 0:
+            continue
+        elif n == 0:
+            result.append(0)
+        else:
+            result.append(n * 2)
+    return result",2026-06-04
+S0002,A1,student01,Student_01,"def process_numbers(nums):
+    # handle empty list edge case
+    if not nums:
+        return []
+    result = []
+    for n in nums:
+        if n < 0:
+            continue
+        elif n == 0:
+            result.append(0)
+        else:
+            result.append(n * 2)
+    return result",2026-06-09
+S0003,A1,student09,Student_09,"def process_numbers(nums):
+    """"""Doubles positive numbers, skips negatives.""""""
+    if nums is None or len(nums) == 0:
+        return []
+    output = [n*2 for n in nums if n >= 0]
+    return output",2026-06-04
+S0004,A1,student08,Student_08,"def process_numbers(nums):
+    """"""Doubles positive numbers, skips negatives.""""""
+    if nums is None or len(nums) == 0:
+        return []
+    output = [n*2 for n in nums if n >= 0]
+    return output",2026-06-01
+S0005,A1,student22,Student_22,"def process(nums):
+    result = []
+    for n in nums:
+        result.append(n*2)
+    return result",2026-06-07
+S0006,A1,student05,Student_05,"def process_numbers(nums):
+    # handle empty list edge case
+    if not nums:
+        return []
+    result = []
+    for n in nums:
+        if n < 0:
+            continue
+        elif n == 0:
+            result.append(0)
+        else:
+            result.append(n * 2)
+    return result",2026-06-04
+S0007,A1,student25,Student_25,def f(a): return a*2,2026-06-02
+S0008,A1,student18,Student_18,"def process_numbers(nums):
+    # handle empty list edge case
+    if not nums:
+        return []
+    result = []
+    for n in nums:
+        if n < 0:
+            continue
+        elif n == 0:
+            result.append(0)
+        else:
+            result.append(n * 2)
+    return result",2026-06-06
+S0009,A1,student03,Student_03,def f(a): return a*2,2026-06-01
+S0010,A1,student14,Student_14,"def process(nums):
+    result = []
+    for n in nums:
+        result.append(n*2)
+    return result",2026-06-07
+S0011,A2,student18,Student_18,"Binary search has a time complexity of O(log n) because the search space is halved at every step, therefore the number of comparisons grows logarithmically. The space complexity is O(1) for the iterative version since no extra memory is used, in other words it works in-place.",2026-06-05
+S0012,A2,student10,Student_10,it is fast,2026-06-02
+S0013,A2,student21,Student_21,"The algorithm runs in O(log n) time because it divides the array in half each iteration. Space complexity is O(log n) for the recursive version due to the call stack, which means recursion adds overhead compared to the iterative approach.",2026-06-06
+S0014,A2,student20,Student_20,"The algorithm runs in O(log n) time because it divides the array in half each iteration. Space complexity is O(log n) for the recursive version due to the call stack, which means recursion adds overhead compared to the iterative approach.",2026-06-04
+S0015,A2,student12,Student_12,binary search is fast because it divides the array. complexity is good.,2026-06-10
+S0016,A2,student19,Student_19,binary search is fast because it divides the array. complexity is good.,2026-06-03
+S0017,A2,student07,Student_07,time complexity is O(n) i think because it goes through the list,2026-06-09
+S0018,A2,student03,Student_03,"The algorithm runs in O(log n) time because it divides the array in half each iteration. Space complexity is O(log n) for the recursive version due to the call stack, which means recursion adds overhead compared to the iterative approach.",2026-06-01
+S0019,A3,student02,Student_02,"Database normalization refers to structuring tables to minimize duplicate data and dependency issues. For instance, splitting an orders table so customer address is not repeated in every row demonstrates 2NF, and further removing derived fields achieves 3NF.",2026-06-07
+S0020,A3,student11,Student_11,i did not fully understand this topic,2026-06-03
+S0021,A3,student13,Student_13,"Normalization is defined as the process of organizing data to reduce redundancy. For example, a table storing student name and course name repeatedly can be split into separate tables linked by keys. Moving from 1NF to 3NF removes transitive dependencies, such as separating instructor details into their own table.",2026-06-09
+S0022,A3,student09,Student_09,"it is when you organize database, for example splitting tables",2026-06-10
+S0023,A3,student03,Student_03,"Normalization is defined as the process of organizing data to reduce redundancy. For example, a table storing student name and course name repeatedly can be split into separate tables linked by keys. Moving from 1NF to 3NF removes transitive dependencies, such as separating instructor details into their own table.",2026-06-03
+S0024,A3,student07,Student_07,normalization means making tables better and removing repeated data,2026-06-01
+S0025,A3,student19,Student_19,normalization is good practice,2026-06-03
+S0026,A3,student24,Student_24,"it is when you organize database, for example splitting tables",2026-06-10
+S0027,A4,student13,Student_13,"SELECT * FROM books, members WHERE books.id = members.id",2026-06-09
+S0028,A4,student25,Student_25,i made one table with all the columns together to keep it simple,2026-06-02
+S0029,A4,student20,Student_20,"CREATE TABLE members (member_id INT PRIMARY KEY, name VARCHAR(50));
+CREATE TABLE books (book_id INT PRIMARY KEY, title VARCHAR(100));
+CREATE TABLE loans (loan_id INT PRIMARY KEY, member_id INT, book_id INT, due_date DATE, FOREIGN KEY(member_id) REFERENCES members(member_id), FOREIGN KEY(book_id) REFERENCES books(book_id));
+SELECT m.name, b.title FROM loans l INNER JOIN members m ON l.member_id=m.member_id INNER JOIN books b ON l.book_id=b.book_id WHERE l.due_date < CURRENT_DATE;",2026-06-08
+S0030,A4,student15,Student_15,"I designed three tables with primary key and foreign key relationships, then used an inner join with a where clause to filter overdue books, and added an index on due_date to optimize the query because it is queried frequently.",2026-06-09
+S0031,A4,student17,Student_17,"SELECT * FROM books, members WHERE books.id = members.id",2026-06-05
+S0032,A4,student09,Student_09,select books from library,2026-06-03
+S0033,A4,student18,Student_18,"CREATE TABLE members (member_id INT PRIMARY KEY, name VARCHAR(50));
+CREATE TABLE books (book_id INT PRIMARY KEY, title VARCHAR(100));
+CREATE TABLE loans (loan_id INT PRIMARY KEY, member_id INT, book_id INT, due_date DATE, FOREIGN KEY(member_id) REFERENCES members(member_id), FOREIGN KEY(book_id) REFERENCES books(book_id));
+SELECT m.name, b.title FROM loans l INNER JOIN members m ON l.member_id=m.member_id INNER JOIN books b ON l.book_id=b.book_id WHERE l.due_date < CURRENT_DATE;",2026-06-09
+S0034,A4,student01,Student_01,select books from library,2026-06-10
+S0035,A5,student16,Student_16,"def validate_input(value):
+    """"""Validates and sanitizes numeric input, reusable module function.""""""
+    try:
+        return int(value)
+    except (ValueError, TypeError) as e:
+        print('error', e)
+        return None
+
+# basic test
+assert validate_input('5') == 5",2026-06-02
+S0036,A5,student01,Student_01,"x = input()
+print(x)",2026-06-03
+S0037,A5,student04,Student_04,"def get_input():
+    x = input()
+    return int(x)",2026-06-05
+S0038,A5,student12,Student_12,i added a try except but did not test it much,2026-06-04
+S0039,A5,student10,Student_10,"x = input()
+print(x)",2026-06-05
+S0040,A5,student08,Student_08,"def validate_input(value):
+    """"""Validates and sanitizes numeric input, reusable module function.""""""
+    try:
+        return int(value)
+    except (ValueError, TypeError) as e:
+        print('error', e)
+        return None
+
+# basic test
+assert validate_input('5') == 5",2026-06-08
+S0041,A5,student02,Student_02,did not have time to add validation,2026-06-02
+S0042,A5,student20,Student_20,"def get_user_age():
+    try:
+        age = int(input('Enter age: '))
+        if age < 0:
+            raise ValueError('Age cannot be negative')
+        return age
+    except ValueError as e:
+        print(f'Invalid input: {e}')
+        return None
+
+def test_get_user_age():
+    assert get_user_age() is not None",2026-06-06
+S0043,A5,student03,Student_03,"def get_user_age():
+    try:
+        age = int(input('Enter age: '))
+        if age < 0:
+            raise ValueError('Age cannot be negative')
+        return age
+    except ValueError as e:
+        print(f'Invalid input: {e}')
+        return None
+
+def test_get_user_age():
+    assert get_user_age() is not None",2026-06-10

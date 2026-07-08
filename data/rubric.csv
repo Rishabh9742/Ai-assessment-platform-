@@ -1,0 +1,22 @@
+rubric_id,assignment_id,criterion,keywords,weight,max_points
+R1,A1,Correct use of loops,for;while;range;iterate;loop;in nums;in range,0.3,30
+R1,A1,Correct use of conditionals,if;else;elif;condition;continue,0.2,20
+R1,A1,Handles edge cases,empty;zero;negative;edge case;none;not nums;n<0;n==0,0.2,20
+R1,A1,Code readability and comments,comment;docstring;naming;readable;#,0.15,15
+R1,A1,Correct output / logic,return;output;result;correct;append,0.15,15
+R2,A2,Explains time complexity,o(n);time complexity;big o;complexity,0.3,30
+R2,A2,Explains space complexity,space complexity;memory;auxiliary space,0.2,20
+R2,A2,Correct algorithm identification,binary search;sorting;recursion;dynamic programming;greedy,0.3,30
+R2,A2,Clear explanation in own words,because;therefore;means that;in other words,0.2,20
+R3,A3,Defines key concept correctly,definition;refers to;is defined as;means,0.3,30
+R3,A3,Provides relevant example,for example;such as;e.g.;instance,0.25,25
+R3,A3,Covers normalization concept,normalization;redundancy;1nf;2nf;3nf,0.25,25
+R3,A3,Grammar and clarity,clear;concise;well-structured,0.2,20
+R4,A4,Correct use of joins/queries,join;select;where;group by;inner join,0.35,35
+R4,A4,Schema design correctness,primary key;foreign key;schema;table,0.35,35
+R4,A4,Query optimization awareness,index;optimize;performance,0.15,15
+R4,A4,Explanation clarity,because;explanation;therefore,0.15,15
+R5,A5,Correct exception handling,try;except;catch;finally;exception,0.3,30
+R5,A5,Input validation,validate;check;sanitize;input,0.25,25
+R5,A5,Modular function design,function;def;module;reusable,0.25,25
+R5,A5,Testing mentioned,test;unit test;assert;pytest,0.2,20

@@ -1,0 +1,6 @@
+assignment_id,title,type,description,rubric_id,max_score
+A1,Python Loops and Conditionals - Coding Task,coding,"Write a Python function that processes a list of numbers using loops and conditionals, handling edge cases like empty lists.",R1,100
+A2,Algorithm Complexity Analysis - Written Task,theory,Explain the time and space complexity of a given algorithm (binary search) and justify your reasoning.,R2,100
+A3,Database Normalization - Written Task,theory,"Define database normalization, explain its purpose, and provide an example moving a table from 1NF to 3NF.",R3,100
+A4,SQL Joins and Schema Design - Coding Task,coding,Design a schema for a library system and write SQL queries using joins to fetch overdue books per member.,R4,100
+A5,Robust Function Design with Error Handling - Coding Task,coding,"Write a Python function that reads user input, validates it, and handles exceptions gracefully with basic tests.",R5,100
