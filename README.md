@@ -82,7 +82,7 @@ On the seed dataset, the AI scorer reliably separates submission quality tiers (
 Roll No. Name
 - 388 Rishabh Rai
 - 430 Hargundeep Singh
-- 385 Rishabraj Singh Shekhawat
+- 353 Rishabraj Singh Shekhawat
 - 385 Utkarsh Kumar Chaturvedi
 - 391 Abhimanyu Thakur
 
